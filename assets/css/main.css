@@ -3403,16 +3403,17 @@ input[type="button"].small,
 
 .resume {
   display: flex;
-  align-content: center;
   justify-content: center;
-  flex-direction: column;
   margin-top: 4%;
 }
 .res-link {
-  width: 20%;
-  align-self: center;
   background-color: rgba(0, 99, 23);
 }
 .res-link:hover {
   background-color: rgb(8, 80, 24);
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
 }
