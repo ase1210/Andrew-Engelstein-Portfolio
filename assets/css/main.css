@@ -115,7 +115,8 @@ body {
 }
 
 ol,
-ul {
+ul,
+li {
   list-style: none;
 }
 
@@ -211,13 +212,12 @@ a {
     border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
-  color: #4eb980;
+  color: blue;
   text-decoration: none;
 }
 
 a:hover {
-  border-bottom-color: transparent;
+  color: darkblue;
 }
 
 strong,
@@ -3416,4 +3416,11 @@ input[type="button"].small,
 .projects {
   display: flex;
   justify-content: center;
+}
+
+.cluck-img {
+  position: absolute;
+  max-height: 240px;
+  top: 0;
+  left: 0;
 }
