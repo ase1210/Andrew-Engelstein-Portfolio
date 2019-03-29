@@ -3429,3 +3429,11 @@ input[type="button"].small,
 i {
   font-size: 3rem;
 }
+
+#header .main-banner-text-h1 {
+  color: #005d68;
+}
+
+#header .main-banner-text {
+  color: darkseagreen;
+}
