@@ -3408,9 +3408,11 @@ input[type="button"].small,
 }
 .res-link {
   background-color: rgba(0, 99, 23);
+  color: white;
 }
 .res-link:hover {
   background-color: rgb(8, 80, 24);
+  color: white;
 }
 
 .projects {
@@ -3429,11 +3431,20 @@ input[type="button"].small,
 i {
   font-size: 3rem;
 }
-
-#header .main-banner-text-h1 {
-  color: #005d68;
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-#header .main-banner-text {
-  color: darkseagreen;
+.flex-col {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.redux-icon {
+  width: 3rem;
 }
