@@ -2791,7 +2791,7 @@ input[type="button"].small,
 #header {
   background-attachment: scroll, scroll, fixed;
   background-image: url("images/top-3200.svg"), url("images/ovelay.png"),
-    url("../../images/IMG_3452.jpg");
+    url("../../images/south-pole.jpg");
   background-position: bottom center, top left, center center;
   background-repeat: repeat-x, repeat, no-repeat;
   background-size: 3200px 460px, auto, cover;
@@ -3126,7 +3126,7 @@ input[type="button"].small,
   #header {
     background-attachment: scroll, scroll, scroll;
     background-image: url("images/top-1600.svg"), url("images/ovelay.png"),
-      url("../../images/IMG_3452.jpg");
+      url("../../images/south-pole.jpg");
     background-size: 1600px 230px, auto, cover;
     padding: 6em 0 12em 0;
   }
@@ -3277,7 +3277,7 @@ input[type="button"].small,
 
   #header {
     background-image: url("images/top-1280.svg"), url("images/overay.png"),
-      url("../../images/IMG_3452.jpg");
+      url("../../images/south-pole.jpg");
     background-size: 1280px 184px, auto, cover;
     padding: 3em 0 7em 0;
   }
@@ -3447,4 +3447,17 @@ i {
 
 .redux-icon {
   width: 3rem;
+}
+
+.bg-cluck {
+  background-image: url("../../images/projects/Cluck-logged-in.png");
+  background-size: cover;
+}
+.bg-myphotojourney {
+  background-image: url("../../images/projects/myphotojourney.jpg");
+  background-size: cover;
+}
+.bg-drewtris {
+  background-image: url("../../images/projects/Drew-Tris.png");
+  background-size: cover;
 }
